@@ -1,0 +1,258 @@
+/* Editor styles for the counter block */
+.zlgcb-mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.zlgcb-mt-20 {
+  margin-top: 20px !important;
+}
+
+.btn-danger {
+  border-color: #ff3535 !important;
+  background: #ff494912 !important;
+  color: #ff3535 !important;
+}
+
+.zlgcb-flex {
+  display: flex;
+}
+
+.zlgcb-d-block {
+  display: block;
+}
+
+.zlgcb-element-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Color Palette CSS */
+
+.zlgcb-color-palette {
+  width: 50%;
+}
+
+.zlgcb-color-palette .components-flex {
+  gap: 0 !important;
+  text-align: center;
+}
+
+.zlgcb-color-palette .components-color-palette__custom-color-button {
+  box-shadow: none;
+  border: 2px solid #f2f2f6;
+  border-radius: 50%;
+}
+
+.zlgcb-color-palette .components-circular-option-picker__custom-clear-wrapper {
+  display: inline-block !important;
+  margin-top: 0 !important;
+}
+
+.zlgcb-color-palette
+  .components-circular-option-picker__custom-clear-wrapper
+  .components-circular-option-picker__clear {
+  color: #ff3535;
+}
+
+.zlgcb-color-palette .components-circular-option-picker {
+  min-width: 100% !important;
+}
+
+.components-color-palette__custom-color-text-wrapper {
+  display: none !important;
+}
+
+.components-color-palette__custom-color-wrapper {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* Attribute Label CSS*/
+
+.zlgcb-attribute-label {
+  display: block;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.zlgcb-attribute-main-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Multiple Attribute Control Function */
+
+.zlgcb-multiple-attributes-control {
+  display: flex;
+}
+
+.zlgcb-multiple-attributes-control .components-base-control {
+  margin-bottom: 0;
+}
+
+.zlgcb-multiple-attributes-control select {
+  width: 55px !important;
+}
+
+.zlgcb-multiple-attributes-control input {
+  width: 30px !important;
+  padding: 3px !important;
+}
+
+/* Responsive Button Toggle */
+
+.zlgcb-res-button .zlgcb-responsive-button-dropdown {
+  margin-top: 26px;
+}
+
+.zlgcb-responsive-button-dropdown {
+  margin-top: 24px;
+  margin-left: 7px;
+}
+
+.zlgcb-responsive-button-dropdown .components-button {
+  padding: 6px 10px;
+  background: #000;
+  height: 100%;
+  width: 100%;
+}
+
+.zlgcb-responsive-button-dropdown .zlgcb-responsive-dropdown-icons svg {
+  height: 15px;
+  width: 15px;
+}
+
+.zlgcb-responsive-dropdown-icons svg {
+  height: 20px;
+  width: 20px;
+}
+
+.zlgcb-dropdown-icon svg {
+  height: 15px;
+  width: 15px;
+}
+
+.zlgcb-responsive-button-dropdown .zlgcb-responsive-dropdown-icons svg path {
+  fill: #fff !important;
+}
+
+/* Responsive Toggle Panel */
+
+.zlgcb-responsive-dropdown-icons svg path,
+.zlgcb-dropdown-icon svg path {
+  fill: #000;
+}
+
+.zlgcb-responsive-dropdown-panel .components-menu-item__button {
+  display: inline;
+  width: auto;
+  padding: 10px;
+}
+
+.zlgcb-responsive-dropdown-panel .components-menu-item__item {
+  display: inline;
+}
+
+.zlgcb-responsive-dropdown-panel {
+  padding: 0;
+}
+
+.zlgcb-responsive-dropdown-panel .components-button:focus,
+.zlgcb-button-dropdown .components-button:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.zlgcb-responsive-dropdown-panel .components-button:hover {
+  background: #000;
+}
+
+.zlgcb-responsive-dropdown-panel .components-button:hover svg path {
+  fill: #fff;
+}
+
+.zlgcb-responsive-button-dropdown-content .components-popover__content {
+  padding: 0;
+}
+
+/* Dropdown menu */
+
+.zlgcb-button-dropdown-content .components-popover__content {
+  position: absolute;
+  top: -200px;
+  left: -200px;
+  width: 240px;
+  overflow-y: scroll;
+}
+
+/* Plugin deactivation form */
+
+.zlgcb-plugin-deactivate-pop-up {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.zlgcb-plugin-deactivate-pop-up-content {
+  position: relative;
+  margin: 15% auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  background: white;
+}
+
+.zlgcb-plugin-deactivate-pop-up-content h2 {
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.zlgcb-plugin-deactivate-pop-up-content h3 {
+  font-size: 16px;
+}
+
+.zlgcb-other-reason {
+  display: none;
+  margin-top: 10px;
+  width: 65%;
+  resize: none;
+}
+
+.zlgcb-cancel-btn {
+  position: absolute;
+  top: 10px;
+  right: 3px;
+  border: none;
+  background: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 0;
+}
+
+.zlgcb-cancel-btn svg {
+  cursor: pointer;
+}
+
+.zlgcb-form-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

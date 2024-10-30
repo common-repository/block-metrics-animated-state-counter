@@ -1,0 +1,115 @@
+/* Frontend styles for the counter block */
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.zlgcb-custom-panel-row {
+  flex-direction: column;
+}
+
+/* Animation CSS */
+
+.zlgcb-animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/* Fade In */
+
+.zlgcb-fade-In {
+  animation-name: zlgcbFadeIn;
+}
+
+@keyframes zlgcbFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Fade In Up */
+
+.zlgcb-fade-In-Up {
+  animation-name: zlgcbFadeInUp;
+}
+
+@keyframes zlgcbFadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/* Fade In Down */
+
+.zlgcb-fade-In-Down {
+  animation-name: zlgcbFadeInDown;
+}
+
+@keyframes zlgcbFadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/* Fade In Left */
+
+.zlgcb-fade-In-Left {
+  animation-name: zlgcbFadeInLeft;
+}
+
+@keyframes zlgcbFadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/* Fade In Right */
+
+.zlgcb-fade-In-Right {
+  animation-name: zlgcbFadeInRight;
+}
+
+@keyframes zlgcbFadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
